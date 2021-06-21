@@ -14,7 +14,7 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <com.ssos.support.preferences.SwitchPreference    
+    <SwitchPreference
         android:icon="@drawable/ic_doze_aod"
         android:key="always_on_display"
         android:disableDependentsState="true"
@@ -22,7 +22,7 @@
         android:summary="@string/ambient_display_always_on_summary"
         android:persistent="false" />
 
-    <com.ssos.support.preferences.SwitchPreference
+    <SwitchPreference
         android:icon="@drawable/ic_doze_wake"
         android:key="gesture_raise_to_wake"
         android:defaultValue="true"
@@ -33,14 +33,14 @@
         android:key="pickup_sensor"
         android:title="@string/pickup_sensor_title">
 
-        <com.ssos.support.preferences.SwitchPreference
+        <SwitchPreference
             android:icon="@drawable/ic_pickup"
             android:defaultValue="false"
             android:key="gesture_pick_up"
             android:summary="@string/pick_up_gesture_summary"
             android:title="@string/pick_up_gesture_title" />
 
-        <com.ssos.support.preferences.SwitchPreference
+        <SwitchPreference
             android:icon="@drawable/ic_doze_smart_wake"
             android:defaultValue="false"
             android:key="gesture_smart_wake"
@@ -53,7 +53,7 @@
         android:key="proximity_sensor"
         android:title="@string/proximity_sensor_title">
 
-        <com.ssos.support.preferences.SwitchPreference
+        <SwitchPreference
             android:icon="@drawable/ic_pocket"
             android:defaultValue="false"
             android:key="gesture_pocket"

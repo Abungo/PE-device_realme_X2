@@ -29,8 +29,7 @@ TARGET_LMKD_STATS_LOG := true
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage \
-    $(LOCAL_PATH)/overlay-system
+    $(LOCAL_PATH)/overlay-aosp
 
 # Properties
 -include $(LOCAL_PATH)/vendor_props.mk
@@ -99,6 +98,10 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
+
+# Lineage Specific perms
+PRODUCT_COPY_FILES += \
+   vendor/aosp/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
 
 # HIDL
 PRODUCT_PACKAGES += \

@@ -21,4 +21,4 @@ Rear Camera  | 64MP (wide) / 8MP (telephoto) / 2MP (ultrawide) / 2MP (depth)
 Front Camera | 32MP
 
 ## Device picture
-![realme X2](https://www.gizmochina.com/wp-content/uploads/2019/09/Realme-X2-2.jpg "realme X2 in blue")
+![realme X2](https://fdn2.gsmarena.com/vv/pics/realme/realme-xt.jpg "realme X2 in white")
