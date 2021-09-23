@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_X2.mk
+    $(LOCAL_DIR)/wave_X2.mk
 
 
 COMMON_LUNCH_CHOICES := \
-    aosp_X2-eng \
-    aosp_X2-user \
-    aosp_X2-userdebug
+    wave_X2-eng \
+    wave_X2-user \
+    wave_X2-userdebug
